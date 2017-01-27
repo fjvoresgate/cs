@@ -1,0 +1,63 @@
+html {
+height: 100%;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+body{
+background-color: #000;
+margin:0px;
+}
+
+#topo{
+width:100%;
+height:80px;
+margin: auto;
+padding-left:60px;
+background: #009900;
+background-color: #000;
+display: -webkit-flex;
+border-bottom: 3px solid #d80a41;
+color: #ffffff;
+font-size: 4em;
+}
+
+#sender{
+width: 320px;
+height: 800px;
+background: #000;
+border-right: 4px solid #d80a41;
+box-sizing: border-box;
+overflow: auto;
+}
+
+#stream{
+margin-left: 17%;
+margin-top: -41%;
+width: 1500px;
+height: 150px;
+}
+
+a{
+display: inline-block;
+width: 70px;
+height: 53px;
+margin: 10px 15px 0px 0px;
+border: 1px solid #ddd;  
+background-color: #eee;  
+text-align: center;
+}
+
+#wall a{
+display: inline-block;
+width: 140px;
+height: 100px;
+margin: 10px 15px 0px 0px;
+border: 1px solid #ddd;  
+background-color: #fff;  
+text-align: center;
+}
+
+
+
+
